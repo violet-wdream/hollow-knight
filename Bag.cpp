@@ -2,7 +2,7 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
-
+//111
 Bag::Bag(){
 	saveGoods[20][2] = { 0 };
 }
