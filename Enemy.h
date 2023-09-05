@@ -1,4 +1,5 @@
-﻿#ifndef ENEMY_H
+//第72行
+#ifndef ENEMY_H
 #define ENEMY_H
 #include <string>
 using namespace std;
@@ -69,6 +70,7 @@ public:
 	Enemy_Boss();
 	Enemy_Boss(int type);
 	~Enemy_Boss() {};
+	void showinfor(int whatType);	//简介显示函数
 
 };
 #endif
