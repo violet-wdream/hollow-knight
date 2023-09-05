@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//第93行增加enemy简介显示函数
+#include <iostream>
 #include<fstream>
 #include <Windows.h>
 #include <mmsystem.h>
@@ -90,6 +91,7 @@ menu:
 			{
 				Sleep(3000);
 				system("cls");
+				boss.showinfor(map.getPosition());		//增加enemy简介显示函数
 				if (fight.fightRound() == true)
 				{
 					player = fight.runEndFight();
