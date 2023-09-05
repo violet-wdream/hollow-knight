@@ -1,4 +1,4 @@
-//第72行
+//第73行
 #ifndef ENEMY_H
 #define ENEMY_H
 #include <string>
